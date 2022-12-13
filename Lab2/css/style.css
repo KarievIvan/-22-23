@@ -1,0 +1,28 @@
+.first{
+
+    width: 1000px;
+    border: 1px solid rgb(9, 53, 13);
+    color: rgb(10, 73, 10);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 600px;
+    height: 400px;
+    border: 2px solid darkgreen;
+}
+.size {
+    color:  rgb(10, 73, 10);
+    text-decoration: underline;
+}
+.list{
+   font-size: 13px;
+}
+.text{
+    font-size: 15px;
+    text-align: auto;
+}
+.header{
+    color: rgb(63, 35, 9);
+}

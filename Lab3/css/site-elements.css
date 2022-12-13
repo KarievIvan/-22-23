@@ -1,0 +1,175 @@
+
+.container {
+
+	display: grid;
+	height: 90vh;
+	grid-template-columns: 1fr 5fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: 'menu' 'section';
+
+}
+
+
+.description {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.description button {
+
+	font-size: 24px;
+	width: 250px;
+	height: 75px;
+
+}
+
+
+.galary {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.galary-indexes {
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+}
+
+.galary-indexes-circle, .galary-indexes-circle-selected{
+	width: 10px;
+	height: 10px;
+	background-color: lightslategray;
+	border-radius: 5px;
+
+}
+
+.galary-indexes-circle-selected {
+	background-color: red;
+}
+
+
+.galary img {
+	height: 60vh;
+}
+
+
+.band {
+	width: 90%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.band h2 {
+	text-align: center;
+}
+
+.band-field {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+
+
+.card {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 20%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.card h2 {
+	margin: 0;
+}
+
+.card .photo {
+
+	width: 90%;
+	height: auto;
+	margin: auto;
+	padding: 5px;
+} 
+
+
+.card .photo img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+
+.card .card-buy-field {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	width: 90%;
+}
+
+
+.buy-button {
+	background-color: #1995AD;
+	color: #f1f1f2;
+	border: none;
+	padding: 5px 25px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+.table-cart  {
+	width: 60%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+
+.table-cart tr {
+	margin: auto;
+}
+
+.table-cart-row, .table-cart-row-product {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.table-cart-row td, th {
+	width: 25%;
+	text-align: center;
+}
+
+
+
+
+
+.table-cart-row td input {
+	width: 50%;
+	text-align: center;
+}
+
+
+
+.table-cart-row-product td input {
+	width: 50%;
+}
+
+
+
+
+
+
