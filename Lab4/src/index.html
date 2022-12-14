@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="styles/index.css" rel="stylesheet" type="text/css">
+	<link href="styles/site-elements.css" rel="stylesheet" type="text/css">
+	<title>Document</title>
+
+	<script src="js/comments.js" async></script>
+	<script src="js/pogoda.js" async></script>
+</head>
+<body>
+<nav>
+	<div class="menu">
+	<ul>
+		<li>Home</li>
+		<li>Comments</li>
+		<li>Info</li>
+	</ul>
+   </div> 
+</nav>
+<header name="home">
+	<div class="galary">
+		<img id="galaryPhoto"/>
+		<div class="galary-indexes">
+			<div class="galary-indexes-circle"></div>
+			<div class="galary-indexes-circle"></div>
+			<div class="galary-indexes-circle"></div>
+			<div class="galary-indexes-circle"></div>
+		</div>
+	</div>
+	<div class="description">
+		<button class="buy-button">Buy now</button>
+	</div>
+</header>
+<div class="band">
+	<h2 >Our Goods</h2>
+	<div id="band" class="band-field">
+		<div class="card">
+			<div class="photo">
+				<img src="https://s0.rbk.ru/v6_top_pics/media/img/5/12/756541060352125.jpg" >
+			</div>
+			<h2>Himars</h2>
+			<div class="card-buy-field">
+				<p>1.6M $</p>
+				<button value="0" class="buy-button">Buy</button>
+			</div>
+		</div>
+		<div class="card">
+			<div class="photo">
+				<img src="https://apostrophe.ua/uploads/image/cb53eb37570f5425d16d2f214f13dc41.jpg" >
+			</div>
+			<h2>MLRS 270</h2>
+			<div class="card-buy-field">
+
+				<p>2.2M $</p>
+				<button value="1" class="buy-button">Buy</button>
+			</div>
+		</div>
+		<div class="card">
+			<div class="photo">
+				<img src="https://telegraf.com.ua/static/storage/originals/d/d2/576df7faf8c6d19f9c4ed26ab02ced2d.jpg" >
+			</div>
+			<h2>Vilkha</h2>
+			<div class="card-buy-field">
+				<p>1.1M $</p>
+				<button value="2" class="buy-button">Buy</button>
+			</div>
+		</div>
+		<div class="card">
+			<div class="photo">
+				<img src="https://wikiwarriors.org/mediawiki/images/7/75/LAR-160.jpg" >
+			</div>
+			<h2>LAR 160</h2>
+			<div class="card-buy-field">
+				<p>2M$</p>
+				<button value="3" class="buy-button">Buy</button>
+			</div>
+		</div>
+	</div>
+</div>
+<table  id="cart" class="table-cart">
+	<tr class="table-cart-row" style="justify-content: center"> 
+		<th>Cart</th>
+	</tr>
+	<tr class="table-cart-row"> 
+		<td>Product</td>
+		<td>Price</td>
+		<td>Count</td>
+		<td>total</td>
+	</tr>
+	<tr class="table-cart-row">
+		<td>Himars</td>
+		<td>1.6m</td>
+		<td><input class="count-product" type="number"  value="0" min="0"/> </td>
+		<td class="total-product">0</td>
+	</tr>
+	<tr class="table-cart-row">
+		<td>MLRS 270</td>
+		<td>2.2m</td>
+		<td><input class="count-product" type="number" value="0" min="0"/> </td>
+		<td class="total-product">0</td>
+	</tr>
+	<tr class="table-cart-row">
+		<td>Vilkha</td>
+		<td>1.1m</td>
+		<td><input class="count-product" type="number"  value="0" min="0"/> </td>
+		<td class="total-product">0</td>
+	</tr>
+	<tr class="table-cart-row">
+		<td>LAR 160</td>
+		<td>2m</td>
+		<td><input class="count-product" type="number"  value="0" min="0"/> </td>
+		<td class="total-product">0</td>
+	</tr>
+	<tr>
+		<th id="total">Total: 0</th>
+	</tr>
+</table>
+
+
+
+<div class="comments_section">
+	<h1>Our Comments</h1>
+    <div class="Comm_content"></div>
+</div>
+
+<div class="Weather">
+	<section class="top-banner">
+		<div class="container_weather">
+		  <h1 class="heading">Look at your Weather</h1>
+		  <form>
+			<input type="text" placeholder="Search for a city" autofocus>
+			<button type="submit">SUBMIT</button>
+		  </form>
+		</div>
+	  </section>
+	  <section class="ajax-section">
+		<div class="container_weather">
+		  <ul class="cities"></ul>
+		</div>
+	  </section>
+</div>
+
+
+
+<footer>
+	<div id="content-footer">
+	<div>
+		 <ul>
+			 <li>Home</li>
+			 <li>Goods</li>
+			<li>Gallery</li>
+			<li>News</li>
+		 </ul>
+	</div>
+	<div>
+		<ul>
+			<li>Blog</li>
+			<li>FAQ</li>
+		   <li>Contacts</li>
+		   <li>Privacy & cookies</li>
+		</ul>
+	</div>
+	<div class="icon-field">
+		<div style="background-image: url('images/fb.png');"  class="photo"></div>
+		<div style="background-image: url('images/insta.png');"  class="photo"></div>
+		<div style="background-image: url('images/youtube.png');"  class="photo"></div>
+	</div>
+</div>
+	<hr/>
+	<span >Copyright &#169; Company 2018-2022</span>
+</footer>
+<script src="js/index.js" type="text/javascript">
+</script>
+</body>
+</html>

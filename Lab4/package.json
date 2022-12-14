@@ -1,0 +1,21 @@
+{
+    "name": "lab4",
+    "version": "1.0.0",
+    "description": "",
+    "main": "reviews.js",
+    "scripts": {
+      "dev": "parcel src/index.html",
+      "build": "parcel build src/index.html"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "cssnano": "^5.1.13",
+      "parcel-bundler": "^1.12.5",
+      "postcss": "^8.4.17"
+    },
+    "browserslist": [
+      "since 2017-06"
+    ]
+  }
+  

@@ -1,0 +1,240 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	background-color: #f1f1f2 ;
+}
+
+
+nav {
+	width: 100%;
+	height: 10vh; 
+	
+}
+
+.menu {
+	position: fixed;
+	height: 10vh;
+	width: 100%;
+	background-color: #A1D6E2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+nav .menu ul {
+	display: flex;
+	gap: 25px
+}
+
+nav .menu  ul li {
+	list-style-type: none;
+	font-size: 24px;
+	color: #FDFFFF;
+    
+}
+nav .menu  ul li a{
+	color: #FDFFFF;
+    text-decoration: none;
+}
+nav .menu  ul li a:hover{
+	color: #8c8cd4;
+}
+
+header {
+	height: 80vh;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	align-items: center;
+}
+
+
+#content-footer{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#content-footer ul{
+    list-style: none;
+    color: rgb(219, 219, 219);
+}
+
+#content-footer ul li:hover{
+    color: rgb(134, 132, 132);
+    cursor: pointer;
+}
+
+footer{
+    background-color:#006C84;
+    padding: 10px;
+    
+}
+hr{
+    width: 95%;
+    color: rgb(219, 219, 219);
+}
+
+
+span{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(219, 219, 219);
+}
+
+.icon-field{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 120px;
+}
+.icon-field .photo{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-size:100% ;
+    background-color: rgb(158, 158, 158);
+    border-radius: 7px;
+    background-blend-mode: luminosity;
+
+}
+
+.icon-field .photo:hover{
+    background-blend-mode: normal;
+    cursor: pointer;
+}
+
+
+.comments_section {
+    padding-left: 150px;
+    padding-right: 100px;
+    height: 1200px;
+}
+
+.comments_section  h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.Comm_content {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Comm_box {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    width: 350px;
+    height: 420px;
+}
+
+.Comm_box > img {
+    padding-left: 120px;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 20px;
+    align-self: center;
+}
+.Comm_box  p, .Comm_box h3 {
+    text-align: center;
+}
+
+.Weather {
+    height: 800px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.ajax-section {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid rgb(48, 48, 48);
+}
+.heading {
+    margin: 0;
+    font-size: 50px;
+}
+.cities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 0.02em;
+    padding: 0 0 30px 0;
+}
+.top-banner form {
+    padding-left: 520px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.top-banner form input {
+    font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    
+    background: none;
+    outline: none;
+}
+.top-banner form input::placeholder {
+    color: currentColor; 
+}
+.top-banner form button {
+    margin-left: 10px; 
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: rgba(28,28,28,0);
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+ul {
+    list-style: none;
+}
+
+.cities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.city {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    border-radius: 20px;
+}
+.city-name {
+    padding-top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.city-temp {
+    font-size: 30px;
+}
+.city figure {
+    padding-left: 20px;
+}
